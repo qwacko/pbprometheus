@@ -1,3 +1,6 @@
+// Package pbprometheus provides Prometheus metrics integration for PocketBase applications.
+// It allows monitoring of HTTP requests, record operations, collection counts,
+// realtime connections, and standard Go runtime/process metrics.
 package pbprometheus
 
 import (
