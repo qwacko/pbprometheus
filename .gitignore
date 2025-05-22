@@ -23,3 +23,13 @@ go.work.sum
 
 # env file
 .env
+
+
+# IDE-specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
