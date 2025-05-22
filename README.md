@@ -1,9 +1,9 @@
 # PocketBase Prometheus Exporter (pbprometheus)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/pbprometheus)](https://goreportcard.com/report/github.com/yourusername/pbprometheus)
-[![GoDoc](https://godoc.org/github.com/yourusername/pbprometheus?status.svg)](https://godoc.org/github.com/yourusername/pbprometheus)
+[![Go Report Card](https://goreportcard.com/badge/github.com/qwacko/pbprometheus)](https://goreportcard.com/report/github.com/qwacko/pbprometheus)
+[![GoDoc](https://godoc.org/github.com/qwacko/pbprometheus?status.svg)](https://godoc.org/github.com/qwacko/pbprometheus)
 <!-- Add build status badge once GitHub Actions CI is set up -->
-<!-- [![Build Status](https://github.com/yourusername/pbprometheus/actions/workflows/go.yml/badge.svg)](https://github.com/yourusername/pbprometheus/actions/workflows/go.yml) -->
+<!-- [![Build Status](https://github.com/qwacko/pbprometheus/actions/workflows/go.yml/badge.svg)](https://github.com/qwacko/pbprometheus/actions/workflows/go.yml) -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `pbprometheus` is a Go package that seamlessly integrates Prometheus metrics into your [PocketBase](https://pocketbase.io/) application. It provides valuable insights into your application's performance, request handling, database operations, and realtime connections.
@@ -24,7 +24,7 @@
 To install `pbprometheus`, use `go get`:
 
 ```bash
-go get github.com/yourusername/pbprometheus
+go get github.com/qwacko/pbprometheus
 ```
 
 Make sure your project is using Go Modules.
@@ -45,7 +45,7 @@ import (
 	"github.com/pocketbase/pocketbase/plugins/migratecmd"
 
 	// Import the pbprometheus package
-	"github.com/yourusername/pbprometheus"
+	"github.com/qwacko/pbprometheus"
 )
 
 func main() {
